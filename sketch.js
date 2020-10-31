@@ -106,7 +106,7 @@ function createArrow() {
   
   arrow = createSprite(350,200,40,40);
   arrow.addImage("arrow0.png",arrowImage)
-  arrow.scale = 0.25;
+  //arrow.scale = 0.25;
   arrow.velocityX = -3;
   arrow.lifetime = 120;
   arrow.y = bow.y;
